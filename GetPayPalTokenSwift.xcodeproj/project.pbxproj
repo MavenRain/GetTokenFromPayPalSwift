@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8E63831A6DA924003E50D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E63821A6DA924003E50D6 /* AppDelegate.swift */; };
+		EE8E63851A6DA924003E50D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E63841A6DA924003E50D6 /* ViewController.swift */; };
+		EE8E63881A6DA924003E50D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8E63861A6DA924003E50D6 /* Main.storyboard */; };
+		EE8E638A1A6DA924003E50D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8E63891A6DA924003E50D6 /* Images.xcassets */; };
+		EE8E638D1A6DA924003E50D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE8E638B1A6DA924003E50D6 /* LaunchScreen.xib */; };
+		EE8E63991A6DA925003E50D6 /* GetPayPalTokenSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E63981A6DA925003E50D6 /* GetPayPalTokenSwiftTests.swift */; };
+		EE8E63A51A6E9C31003E50D6 /* NSDataExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8E63A41A6E9C31003E50D6 /* NSDataExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8E63931A6DA925003E50D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8E63751A6DA923003E50D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8E637C1A6DA924003E50D6;
+			remoteInfo = GetPayPalTokenSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8E637D1A6DA924003E50D6 /* GetPayPalTokenSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetPayPalTokenSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8E63811A6DA924003E50D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8E63821A6DA924003E50D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8E63841A6DA924003E50D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8E63871A6DA924003E50D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8E63891A6DA924003E50D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE8E638C1A6DA924003E50D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE8E63921A6DA925003E50D6 /* GetPayPalTokenSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetPayPalTokenSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8E63971A6DA925003E50D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8E63981A6DA925003E50D6 /* GetPayPalTokenSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPayPalTokenSwiftTests.swift; sourceTree = "<group>"; };
+		EE8E63A21A6E9BC6003E50D6 /* NSDataExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDataExtension.h; sourceTree = "<group>"; };
+		EE8E63A31A6E9C2F003E50D6 /* GetPayPalTokenSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetPayPalTokenSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE8E63A41A6E9C31003E50D6 /* NSDataExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataExtension.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8E637A1A6DA924003E50D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8E638F1A6DA925003E50D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8E63741A6DA923003E50D6 = {
+			isa = PBXGroup;
+			children = (
+				EE8E637F1A6DA924003E50D6 /* GetPayPalTokenSwift */,
+				EE8E63951A6DA925003E50D6 /* GetPayPalTokenSwiftTests */,
+				EE8E637E1A6DA924003E50D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8E637E1A6DA924003E50D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E637D1A6DA924003E50D6 /* GetPayPalTokenSwift.app */,
+				EE8E63921A6DA925003E50D6 /* GetPayPalTokenSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8E637F1A6DA924003E50D6 /* GetPayPalTokenSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E63821A6DA924003E50D6 /* AppDelegate.swift */,
+				EE8E63841A6DA924003E50D6 /* ViewController.swift */,
+				EE8E63861A6DA924003E50D6 /* Main.storyboard */,
+				EE8E63891A6DA924003E50D6 /* Images.xcassets */,
+				EE8E638B1A6DA924003E50D6 /* LaunchScreen.xib */,
+				EE8E63801A6DA924003E50D6 /* Supporting Files */,
+				EE8E63A21A6E9BC6003E50D6 /* NSDataExtension.h */,
+				EE8E63A41A6E9C31003E50D6 /* NSDataExtension.m */,
+				EE8E63A31A6E9C2F003E50D6 /* GetPayPalTokenSwift-Bridging-Header.h */,
+			);
+			path = GetPayPalTokenSwift;
+			sourceTree = "<group>";
+		};
+		EE8E63801A6DA924003E50D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E63811A6DA924003E50D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8E63951A6DA925003E50D6 /* GetPayPalTokenSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E63981A6DA925003E50D6 /* GetPayPalTokenSwiftTests.swift */,
+				EE8E63961A6DA925003E50D6 /* Supporting Files */,
+			);
+			path = GetPayPalTokenSwiftTests;
+			sourceTree = "<group>";
+		};
+		EE8E63961A6DA925003E50D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E63971A6DA925003E50D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8E637C1A6DA924003E50D6 /* GetPayPalTokenSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8E639C1A6DA925003E50D6 /* Build configuration list for PBXNativeTarget "GetPayPalTokenSwift" */;
+			buildPhases = (
+				EE8E63791A6DA924003E50D6 /* Sources */,
+				EE8E637A1A6DA924003E50D6 /* Frameworks */,
+				EE8E637B1A6DA924003E50D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetPayPalTokenSwift;
+			productName = GetPayPalTokenSwift;
+			productReference = EE8E637D1A6DA924003E50D6 /* GetPayPalTokenSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8E63911A6DA925003E50D6 /* GetPayPalTokenSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8E639F1A6DA925003E50D6 /* Build configuration list for PBXNativeTarget "GetPayPalTokenSwiftTests" */;
+			buildPhases = (
+				EE8E638E1A6DA925003E50D6 /* Sources */,
+				EE8E638F1A6DA925003E50D6 /* Frameworks */,
+				EE8E63901A6DA925003E50D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8E63941A6DA925003E50D6 /* PBXTargetDependency */,
+			);
+			name = GetPayPalTokenSwiftTests;
+			productName = GetPayPalTokenSwiftTests;
+			productReference = EE8E63921A6DA925003E50D6 /* GetPayPalTokenSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8E63751A6DA923003E50D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Onyeka Obi";
+				TargetAttributes = {
+					EE8E637C1A6DA924003E50D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EE8E63911A6DA925003E50D6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EE8E637C1A6DA924003E50D6;
+					};
+				};
+			};
+			buildConfigurationList = EE8E63781A6DA923003E50D6 /* Build configuration list for PBXProject "GetPayPalTokenSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8E63741A6DA923003E50D6;
+			productRefGroup = EE8E637E1A6DA924003E50D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8E637C1A6DA924003E50D6 /* GetPayPalTokenSwift */,
+				EE8E63911A6DA925003E50D6 /* GetPayPalTokenSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8E637B1A6DA924003E50D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E63881A6DA924003E50D6 /* Main.storyboard in Resources */,
+				EE8E638D1A6DA924003E50D6 /* LaunchScreen.xib in Resources */,
+				EE8E638A1A6DA924003E50D6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8E63901A6DA925003E50D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8E63791A6DA924003E50D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E63A51A6E9C31003E50D6 /* NSDataExtension.m in Sources */,
+				EE8E63851A6DA924003E50D6 /* ViewController.swift in Sources */,
+				EE8E63831A6DA924003E50D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8E638E1A6DA925003E50D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E63991A6DA925003E50D6 /* GetPayPalTokenSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8E63941A6DA925003E50D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8E637C1A6DA924003E50D6 /* GetPayPalTokenSwift */;
+			targetProxy = EE8E63931A6DA925003E50D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8E63861A6DA924003E50D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8E63871A6DA924003E50D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8E638B1A6DA924003E50D6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8E638C1A6DA924003E50D6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8E639A1A6DA925003E50D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8E639B1A6DA925003E50D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8E639D1A6DA925003E50D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GetPayPalTokenSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GetPayPalTokenSwift/GetPayPalTokenSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8E639E1A6DA925003E50D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GetPayPalTokenSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GetPayPalTokenSwift/GetPayPalTokenSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EE8E63A01A6DA925003E50D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GetPayPalTokenSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetPayPalTokenSwift.app/GetPayPalTokenSwift";
+			};
+			name = Debug;
+		};
+		EE8E63A11A6DA925003E50D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GetPayPalTokenSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetPayPalTokenSwift.app/GetPayPalTokenSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8E63781A6DA923003E50D6 /* Build configuration list for PBXProject "GetPayPalTokenSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E639A1A6DA925003E50D6 /* Debug */,
+				EE8E639B1A6DA925003E50D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8E639C1A6DA925003E50D6 /* Build configuration list for PBXNativeTarget "GetPayPalTokenSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E639D1A6DA925003E50D6 /* Debug */,
+				EE8E639E1A6DA925003E50D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE8E639F1A6DA925003E50D6 /* Build configuration list for PBXNativeTarget "GetPayPalTokenSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E63A01A6DA925003E50D6 /* Debug */,
+				EE8E63A11A6DA925003E50D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8E63751A6DA923003E50D6 /* Project object */;
+}
